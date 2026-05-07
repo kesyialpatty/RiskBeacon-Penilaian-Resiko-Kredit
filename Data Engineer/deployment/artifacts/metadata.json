@@ -1,0 +1,28 @@
+{
+  "feature_names": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "age",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfDependents",
+    "WeightedLateScore",
+    "LogIncome",
+    "DisposableIncome",
+    "LogDebtRatio"
+  ],
+  "target": "SeriousDlqin2yrs",
+  "final_threshold": 0.3,
+  "numerical_cols_normal": [
+    "age",
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberRealEstateLoansOrLines",
+    "NumberOfDependents"
+  ],
+  "numerical_cols_skewed": [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "WeightedLateScore",
+    "LogIncome",
+    "DisposableIncome",
+    "LogDebtRatio"
+  ]
+}

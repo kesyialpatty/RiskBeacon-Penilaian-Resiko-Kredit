@@ -1,0 +1,4 @@
+pandas==2.2.3
+numpy==1.26.4
+great-expectations==0.18.19
+openpyxl

@@ -1,0 +1,15 @@
+pandas==2.2.3
+numpy==1.26.4
+great-expectations==0.18.19
+streamlit==1.41.1
+plotly==6.0.1
+matplotlib
+seaborn
+scipy
+python-dotenv
+joblib==1.4.2
+scikit-learn==1.6.1
+feature-engine
+xgboost
+lightgbm
+openpyxl

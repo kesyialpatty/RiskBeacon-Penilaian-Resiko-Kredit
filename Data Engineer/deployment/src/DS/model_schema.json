@@ -1,0 +1,21 @@
+{
+  "target_column": "target_delinquent",
+  "feature_columns": [
+    "revolving_utilization_pct",
+    "age",
+    "late_30_59",
+    "debt_ratio",
+    "income",
+    "open_loans",
+    "late_90",
+    "real_estate_loans",
+    "late_60_89",
+    "dependents",
+    "log_income",
+    "weighted_late_score"
+  ],
+  "derived_columns": [
+    "log_income",
+    "weighted_late_score"
+  ]
+}
